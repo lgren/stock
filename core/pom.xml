@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>life.stock</groupId>
+    <artifactId>stock</artifactId>
+    <version>1.1</version>
+  </parent>
+
+  <artifactId>core</artifactId>
+
+  <name>core</name>
+  <description>for stock</description>
+
+  <dependencies>
+    <dependency>
+      <groupId>life.stock</groupId>
+      <artifactId>dao</artifactId>
+    </dependency>
+    <!--hutool 需要 支持发送邮件-->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.7</version>
+    </dependency>
+    <!-- 数据库 -->
+    <!--<dependency>-->
+    <!--  <groupId>mysql</groupId>-->
+    <!--  <artifactId>mysql-connector-java</artifactId>-->
+    <!--  <version>8.0.18</version>-->
+    <!--  &lt;!&ndash;<version>5.1.46</version>&ndash;&gt;-->
+    <!--</dependency>-->
+  </dependencies>
+
+</project>
